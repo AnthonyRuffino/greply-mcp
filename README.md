@@ -3,6 +3,10 @@
 An [MCP](https://github.com/modelcontextprotocol) server that wraps the [`greply`](https://www.npmjs.com/package/greply) CLI (Node wrapper for the `greppy` search tool).  
 This allows you to use `greply` directly from an MCP-compatible client such as the **Gemini CLI**.
 
+<a href="https://glama.ai/mcp/servers/@AnthonyRuffino/greply-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@AnthonyRuffino/greply-mcp/badge" alt="Greply Server MCP server" />
+</a>
+
 ---
 
 ## Features
@@ -101,4 +105,3 @@ Search files or directories with the given query and optional flags.
 
 ### `greply.help`
 Display `greply` usage information.
-
