@@ -1,0 +1,14 @@
+{
+  "name": "greply-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.2",
+    "greply": "^0.1.1",
+    "zod": "^3.25.76"
+  }
+}
