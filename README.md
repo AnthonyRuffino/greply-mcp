@@ -8,7 +8,6 @@ This allows you to use `greply` directly from an MCP-compatible client such as t
 ## Features
 - **`greply.search`** — run `greply` with query, before/after context, and flags.
 - **`greply.help`** — print `greply` usage text.
-- **`greply.install`** — install the bundled `greply.sh` to a bin directory.
 
 ---
 
