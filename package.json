@@ -1,6 +1,6 @@
 {
   "name": "greply-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server wrapping the greply CLI",
   "type": "module",
   "private": false,
