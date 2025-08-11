@@ -9,7 +9,8 @@
   },
   "files": [
     "server.mjs",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "start": "node server.mjs"
@@ -24,5 +25,22 @@
     "@modelcontextprotocol/sdk": "^1.17.2",
     "greply": "^0.1.13",
     "zod": "^3.25.76"
-  }
+  },
+  "keywords": [
+    "cli",
+    "grep",
+    "search",
+    "mcp",
+    "wrapper"
+  ],
+  "license": "MIT",
+  "author": "Anthony Ruffino",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyRuffino/greply-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnthonyRuffino/greply-mcp/issues"
+  },
+  "homepage": "https://github.com/AnthonyRuffino/greply-mcp#readme"
 }
