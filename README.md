@@ -1,4 +1,3 @@
-````markdown
 # greply MCP Server
 
 An [MCP](https://github.com/modelcontextprotocol) server that wraps the [`greply`](https://www.npmjs.com/package/greply) CLI (Node wrapper for the `greppy` search tool).  
@@ -9,7 +8,6 @@ This allows you to use `greply` directly from an MCP-compatible client such as t
 ## Features
 - **`greply.search`** — run `greply` with query, before/after context, and flags.
 - **`greply.help`** — print `greply` usage text.
-- **`greply.install`** — install the bundled `greply.sh` to a bin directory.
 
 ---
 
