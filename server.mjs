@@ -19,6 +19,7 @@ server.registerTool(
       wholeWord: z.boolean().optional(),          // -w
       matchCase: z.boolean().optional(),          // -c
       fixedStrings: z.boolean().optional(),       // -F
+      noColor: z.boolean().optional(),            // -nc
       greplyCmd: z.string().optional(),           // override binary path
       suppressErrors: z.boolean().optional()      // bubble up stdout/stderr on non-zero
     }

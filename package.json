@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.2",
-    "greply": "^0.1.1",
+    "greply": "^0.1.13",
     "zod": "^3.25.76"
   }
 }
