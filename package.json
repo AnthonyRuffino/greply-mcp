@@ -1,10 +1,24 @@
 {
   "name": "greply-mcp-server",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "description": "MCP server wrapping the greply CLI",
   "type": "module",
-  "private": true,
+  "private": false,
+  "bin": {
+    "greply-mcp": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "README.md"
+  ],
   "scripts": {
     "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.2",
@@ -12,3 +26,4 @@
     "zod": "^3.25.76"
   }
 }
+
